@@ -8,8 +8,9 @@ import Posts from "./components/Posts/Posts";
 import Buttons from "./components/Buttons/Buttons";
 
 import { reducer } from './redux/reducers'
-import './App.css';
 import rootSaga from "./redux/sagas";
+
+import './App.css';
 
 
 const App = () => {
@@ -20,11 +21,9 @@ const App = () => {
 
   return (
     <Provider store={store}>
-      <div className="App">
-        <div className='container'>
-          <Buttons />
-          <Posts />
-        </div>
+      <div className='container'>
+        <Buttons />
+        <Posts />
       </div>
     </Provider>
   );

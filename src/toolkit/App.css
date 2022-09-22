@@ -1,11 +1,12 @@
-.App {
-  text-align: center;
-}
-
 .container {
   max-width: 80vw;
   margin: 0 auto;
   padding: 50px 0;
+}
+
+.btnsContainer {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .postContainer {

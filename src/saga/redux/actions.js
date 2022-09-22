@@ -17,6 +17,7 @@ export const loadData = () => {
     type: LOAD_DATA,
   }
 }
+
 export const addData = (newPost) => {
   return {
     type: ADD_DATA,
@@ -29,6 +30,7 @@ export const createData = (newPost) => {
     payload: newPost,
   }
 }
+
 export const deleteData = (item) => {
   return {
     type: DELETE_DATA,
@@ -41,6 +43,7 @@ export const removeData = (item) => {
     payload: item,
   }
 }
+
 export const catchError = (error) => {
   return {
     type: REQUEST_FAILED,

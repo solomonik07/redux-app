@@ -5,6 +5,9 @@ import React, { useState } from 'react';
 import { loadData } from '../../redux/actions'
 import AddFrom from "../AddForm/AddForm";
 
+import "../../App.css"
+
+
 const { Text } = Typography;
 
 const Buttons = () => {
@@ -34,7 +37,7 @@ const Buttons = () => {
     )
 
   return (
-    <Row gutter={24} style={{ marginBottom: '20px' }}>
+    <Row gutter={24} className='btnsContainer'>
       <Col span={12}>
         <Button onClick={onLoadClick}>Load Posts</Button>
       </Col>
